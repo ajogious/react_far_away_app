@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
-import ConfirmationModal from "./components/ConfirmationModal";
-import Form from "./components/Form";
-import Logo from "./components/Logo";
-import PackingList from "./components/PackingList";
-import Stats from "./components/Stats";
+import ConfirmationModal from "./ConfirmationModal";
+import Form from "./Form";
+import Logo from "./Logo";
+import PackingList from "./PackingList";
+import Stats from "./Stats";
 
 function App() {
   const [items, setItems] = useState([]);
